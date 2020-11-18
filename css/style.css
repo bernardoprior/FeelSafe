@@ -5,3 +5,68 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+
+   /*---------------------- HERO ----------------------*/
+   .hero {
+    padding-top: 3rem;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   }
+   
+   .hero img {
+    width: 20rem;
+   }
+   
+   .hero-info {
+    padding-right: 5%;
+    width: 35%;
+   }
+   
+   .hero-info img {
+    width: 100%;
+   }
+   
+   .hero-info h1 {
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+   }
+   
+   .hero-info h3 {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 47px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+   }
+   
+   .hero-cta {
+    padding-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+   }
+   
+   .hero-cta img {
+    width: 15rem;
+    margin: 0;
+   }
+   
+   .hero-cta p:hover {
+    background-color: white;
+   }
