@@ -67,6 +67,6 @@ body{
     margin: 0;
    }
    
-   .hero-cta p:hover {
-    background-color: white;
+   .hero-cta img:hover {
+        opacity: 30%;
    }
