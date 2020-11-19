@@ -230,7 +230,7 @@
     }
 
     .mobile-page{
-        height: 90vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -247,7 +247,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: -10%;
+        margin-top: 5%;
     }
 
     button h2{
@@ -476,7 +476,7 @@
     }
 
     .mobile-page{
-        height: 90vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -684,7 +684,7 @@
         }
     
         .mobile-page{
-            height: 90vh;
+            height: 100vh;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -851,9 +851,8 @@
     .bg2 { background: url("../img/iphone5second.svg") no-repeat center center scroll; }
 
     .hero-mobile{
-        margin: 0;
         height: 90vh;
-        padding-top: 3rem;
+        margin-top: 0rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -873,7 +872,7 @@
     }
 
     .hero-mobile .greenBubble{
-        margin-top: 62%;
+        margin-top: 28vh;
         display: flex;
         flex-direction: column;
     }
@@ -892,7 +891,7 @@
     }
 
     .mobile-page{
-        height: 90vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
