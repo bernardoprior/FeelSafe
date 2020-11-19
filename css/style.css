@@ -185,8 +185,8 @@
         display: block;
     }
 
-    .bg1 { background: url("../img/iphone11promaxfirst.svg") no-repeat center center fixed; }
-    .bg2 { background: url("../img/iphone11promaxsecond.svg") no-repeat center center fixed; }
+    .bg1 { background: url("../img/iphone11promaxfirst.svg") no-repeat center center initial; }
+    .bg2 { background: url("../img/iphone11promaxsecond.svg") no-repeat center center initial; }
 
     .laptop{
         display: none;
@@ -435,8 +435,8 @@
         display: block;
     }
     
-    .bg1 { background: url("../img/iphone8plusfirst.svg") no-repeat center center scroll; }
-    .bg2 { background: url("../img/iphone8plussecond.svg") no-repeat center center scroll; }
+    .bg1 { background: url("../img/iphone8plusfirst.svg") no-repeat center center initial; }
+    .bg2 { background: url("../img/iphone8plussecond.svg") no-repeat center center initial; }
 
     .hero-mobile{
         margin: 0;
@@ -643,8 +643,8 @@
             display: none;
         }
         
-        .bg1 { background: url("../img/iphone6first.svg") no-repeat center center scroll;}
-        .bg2 { background: url("../img/iphone6second.svg") no-repeat center center scroll; }
+        .bg1 { background: url("../img/iphone6first.svg") no-repeat center center initial;}
+        .bg2 { background: url("../img/iphone6second.svg") no-repeat center center initial; }
 
         .hero-mobile{
             margin: 0;
@@ -851,8 +851,8 @@
         display: none;
     }
     
-    .bg1 { background: url("../img/iphone5first.svg") no-repeat center center scroll;}
-    .bg2 { background: url("../img/iphone5second.svg") no-repeat center center scroll; }
+    .bg1 { background: url("../img/iphone5first.svg") no-repeat center center initial;}
+    .bg2 { background: url("../img/iphone5second.svg") no-repeat center center initial; }
 
     .hero-mobile{
         height: 90vh;
