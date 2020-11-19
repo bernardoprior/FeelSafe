@@ -6,13 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="icon" type="image/gif" href="img/favicon.png" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
   <title>FeelSafe</title>
 </head>
 
 <body>
-    <main>
+    <div class="laptop">
       <section class="hero">
         <img src="img/iphone.svg" alt="App open on a phone" />
         <div class="hero-info">
@@ -29,7 +32,137 @@
           </div>
         </div>
       </section>
-    </main>
+      <footer>
+        <section class="first-line">
+          <section class="social-media">
+            <div class="social-media-link">
+              <img src="img/instagramGreen.svg" alt="instagram Logo" />
+              <h1>@feel_safe_app</h1>
+            </div>
+            <div class="social-media-link">
+              <img src="img/fbGreen.svg" alt="facebook Logo" />
+              <h1>@feelsafefs</h1>
+            </div>
+            <div class="social-media-link">
+              <img src="img/twitterGreen.svg" alt="twitter Logo" />
+              <h1>@feel_safe_app</h1>
+            </div>
+          </section>
+          <img src="img/letterLogoGreen.svg"/>
+        </section>
+        <section class="aviso">
+          <p>
+            Aviso legal: os conteúdos apresentados  foram realizados por alunos da disciplina PGI  do 3º ano da licenciatura de Engenharia  Informática da Faculdade de Ciências e Tecnologia da Universidade de Coimbra, que  não se responsabiliza pelo seu conteúdo.
+          </p>
+        </section>
+      </footer>
+    </div>
+    <div class="mobile">
+      <section class="hero-mobile bg1" id="one">
+        <img src="img/greenLogo.svg" alt="FeelSafe Logo" />
+        <h1>Olá!</h1>
+        <div class="greenBubble">
+          <button id="button1">
+            <img src="img/arrowDown.svg" alt="arrow Down" />
+            <h2>Vê mais</h2>
+          </button>
+        </div>
+      </section>
+      <section class="mobile-page bg2" id="two">
+        <div class="buttonToTop">
+          <button id="buttonup1">
+            <img src="img/arrowUp.svg" alt="arrow Up" />
+            <h2>Início</h2>
+          </button>
+        </div>
+        <div class="story">
+          <p>Queres ir tomar café com <br> amigos ou com aquela <br> pessoa especial e não sabes <br> se o sítio onde queres <br> ir é seguro?</p>
+          <img src="img/neutralFace.svg" alt="neutral facial expression" />
+        </div>
+        <div class="greenBubble">
+          <button id="button2">
+            <img src="img/arrowDown.svg" alt="arrow Down" />
+            <h2>Vê mais</h2>
+          </button>
+        </div>
+      </section>
+      <section class="mobile-page bg2" id="three">
+        <div class="buttonToTop">
+          <button id="buttonup2">
+            <img src="img/arrowUp.svg" alt="arrow Up" />
+            <h2>Início</h2>
+          </button>
+        </div>
+        <div class="story">
+          <p>A FeelSafe está <br> cá para ti! <br> Segue-nos nas redes <br> sociais e fica atento.</p>
+          <img src="img/smilingFace.svg" alt="smiling face" />
+        </div>
+        <div class="greenBubble">
+          <button id="button3">
+            <img src="img/arrowDown.svg" alt="arrow Down" />
+            <h2 class="white">Vê mais</h2>
+          </button>
+        </div>
+      </section>
+      <section class="mobile-page-final bg2" id="four">
+        <div class="buttonToTop">
+          <button id="buttonup3">
+            <img src="img/arrowUp.svg" alt="arrow Up" />
+            <h2>Início</h2>
+          </button>
+        </div>
+        <footer>
+          <div class="social-media-link">
+            <img src="img/instagram.svg" alt="instagram Logo" />
+            <h1>@feel_safe_app</h1>
+          </div>
+          <div class="social-media-link">
+            <img src="img/fb.svg" alt="facebook Logo" />
+            <h1>@feelsafefs</h1>
+          </div>
+          <div class="social-media-link">
+            <img src="img/twitter.svg" alt="twitter Logo" />
+            <h1>@feel_safe_app</h1>
+          </div>
+          <p>
+            Aviso legal: os conteúdos apresentados <br> foram realizados por alunos da disciplina PGI <br> do 3º ano da licenciatura de Engenharia <br> Informática da Faculdade de Ciências e <br> Tecnologia da Universidade de Coimbra, que <br> não se responsabiliza pelo seu conteúdo.
+          </p>
+        </footer>
+      </section>
+    </div>
 </body>
 
+<script>
+  $('#button1').click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#two").offset().top
+    }, 1000);
+  });
+  $('#button2').click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#three").offset().top
+    }, 1000);
+  });
+  $('#button3').click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#four").offset().top
+    }, 1000);
+  });
+  $('#buttonup1').click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("body").offset().top
+    }, 1000);
+  });
+  $('#buttonup2').click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("body").offset().top
+    }, 2000);
+  });
+  $('#buttonup3').click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("body").offset().top
+    }, 2000);
+  });
+
+</script>
 </html>
