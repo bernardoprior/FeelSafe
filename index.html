@@ -78,6 +78,7 @@
       </footer>
     </div>
     <div id="mobile">
+      <!-- FIRST PAGE -->
       <section class="mobile-ola" id="one">
         <img src="img/greenLogo.svg" alt="FeelSafe Logo" />
         <h1>Olá!</h1>
@@ -85,23 +86,29 @@
       <div class="mobile-gradient-bg-semicircle">
         <div id="button1"></div>
       </div>
+      <!-- END FIRST PAGE -->
       <div class="mobile-gradient-bg-rest">
+        <!-- SECOND PAGE -->
         <section id="two">
-          <p class="txt-raleway">
+          <p class="mobile-story-txt txt-raleway">
             Queres ir tomar café com amigos ou com aquela pessoa especial e não
             sabes se o sítio onde queres ir é seguro?
           </p>
           <img src="img/neutralFace.svg" alt="poker face" />
           <div id="button2"></div>
         </section>
+        <!-- END SECOND PAGE -->
+        <!-- THIRD PAGE -->
         <section id="three">
-          <p class="txt-raleway">
+          <p class="mobile-story-txt txt-raleway">
             A FeelSafe está cá para ti! Segue-nos nas redes sociais e fica
             atento.
           </p>
           <img src="img/smilingFace.svg" alt="poker face" />
           <div id="button3"></div>
         </section>
+        <!-- END THIRD PAGE -->
+        <!-- SOCIAL MEDIA PAGE -->
         <section id="four">
           <div id="button_up">
             <button class="mobile-button">
@@ -143,6 +150,7 @@
             Coimbra, que não se responsabiliza pelo seu conteúdo.
           </p>
         </section>
+        <!-- END SOCIAL MEDIA PAGE -->
       </div>
     </div>
   </body>
@@ -153,6 +161,13 @@
         $(`#button${i}`).load("swipe_up_button.html");
       }
     });
+
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#four").offset().top,
+      },
+      1000
+    );
 
     $("#button1").click(function () {
       $([document.documentElement, document.body]).animate(
