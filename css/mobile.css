@@ -1,0 +1,234 @@
+@media screen and (max-height: 820px) and (max-width: 900px) {
+  body {
+    background: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+
+  .laptop {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+
+    overflow-x: hidden;
+  }
+
+  .mobile-gradient-bg-semicircle {
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    background: linear-gradient(0deg, #84fbde 100%, #84fbde 100%);
+
+    margin-left: -12.5vw;
+    padding-bottom: 18vh;
+    width: 125vw;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-gradient-bg-rest {
+    margin-top: -1vh;
+    background: linear-gradient(
+      0deg,
+      rgba(84, 101, 255, 0.9) 0%,
+      rgba(49, 198, 245, 0.9) 34.9%,
+      rgba(30, 241, 191, 0.9) 70.31%,
+      #84fbde 100%
+    );
+  }
+
+  .mobile-ola {
+    margin-top: 30vh;
+    margin-bottom: 25vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .mobile-ola > img {
+    width: 10vw;
+  }
+
+  .mobile-ola > h1 {
+    margin: 0;
+    margin-top: 2vh;
+
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10vw;
+
+    text-align: center;
+
+    color: #30e3ca;
+  }
+
+  .mobile-button {
+    background: none;
+    border: none;
+    outline: none;
+    height: 30%;
+  }
+
+  .mobile-button > h2 {
+    margin: 1vh 0 0 0;
+    font-size: 5.5vw;
+    color: #ffffff;
+  }
+
+  .mobile-button > img {
+    width: 16vw;
+  }
+
+  div#button1 > .mobile-button {
+    margin-top: 6vh;
+  }
+
+  .mobile-gradient-bg-rest > section {
+    height: 100vh;
+    /* border: 1px red solid; */
+
+    margin: 0 15vw;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .mobile-gradient-bg-rest > section > p {
+    margin: 0;
+
+    text-align: center;
+
+    font-size: 7.1vw;
+
+    color: #ffffff;
+  }
+
+  .mobile-gradient-bg-rest > section > img {
+    width: 20vw;
+  }
+
+  .mobile-gradient-bg-rest > section#two > p {
+    padding-top: 19vh;
+  }
+
+  .mobile-gradient-bg-rest > section#two > img {
+    margin: 10vh 0 0 0;
+  }
+
+  .mobile-gradient-bg-rest > section#two > div#button2 {
+    margin-top: 10vh;
+  }
+
+  .mobile-gradient-bg-rest > section#three > p {
+    padding-top: 24vh;
+  }
+
+  .mobile-gradient-bg-rest > section#three > img {
+    margin: 13vh 0 0 0;
+  }
+
+  .mobile-gradient-bg-rest > section#three > div#button3 {
+    margin-top: 13.3vh;
+  }
+
+  .mobile-gradient-bg-rest > section#four {
+    /* margin-top: 25vh; */
+    filter: brightness(0) invert(1);
+  }
+
+  .mobile-gradient-bg-rest > section#four > div#button_up {
+    padding-top: 10vh;
+    /* margin-top: -10vh; */
+  }
+
+  .mobile-social-media {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-top: 15vh;
+  }
+
+  .mobile-social-media-link {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-bottom: 6vh;
+  }
+
+  .mobile-social-media-link > img {
+    width: 10vw;
+    margin-bottom: 1vh;
+  }
+
+  .mobile-social-media-link > h1 {
+    margin: 0;
+    font-size: 6vw;
+  }
+
+  .mobile-gradient-bg-rest > section#four p.mobile-aviso-legal {
+    margin: 0;
+    margin-top: 4vh;
+
+    font-weight: normal;
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (max-height: 480px) and (max-width: 320px) {
+  .mobile-gradient-bg-rest > section > p {
+    font-size: 5.5vw;
+  }
+
+  .mobile-gradient-bg-rest > section#four > div#button_up {
+    padding-top: 4vh;
+  }
+
+  .mobile-social-media {
+    margin-top: 6vh;
+  }
+
+  .mobile-social-media-link {
+    margin-bottom: 4vh;
+  }
+
+  .mobile-gradient-bg-rest > section#four p.mobile-aviso-legal {
+    margin: 0;
+    margin-top: 2vh;
+
+    font-weight: normal;
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (max-height: 640px) and (max-width: 360px) {
+  .mobile-social-media {
+    margin-top: 10vh;
+  }
+
+  .mobile-gradient-bg-rest > section#four p.mobile-aviso-legal {
+    margin: 0;
+    margin-top: 1vh;
+  }
+}
+
+@media screen and (max-height: 736px) and (max-width: 414px) {
+  .mobile-gradient-bg-rest > section#four > div#button_up {
+    padding-top: 6vh;
+  }
+
+  .mobile-social-media {
+    margin-top: 10vh;
+  }
+}
