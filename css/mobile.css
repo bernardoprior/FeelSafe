@@ -175,10 +175,14 @@
     font-size: 6vw;
   }
 
-  p.mobile-aviso-legal {
+  div.mobile-aviso-legal {
     margin: 0;
     margin-top: 4vh;
 
+    overflow-y: scroll;
+  }
+
+  div.mobile-aviso-legal > p {
     font-weight: normal;
     font-size: 3.5vw;
 
@@ -240,9 +244,11 @@
     font-size: 5vw;
   }
 
-  p.mobile-aviso-legal {
-    font-size: 3vw;
+  div.mobile-aviso-legal {
     margin-top: 2vh;
+  }
+  div.mobile-aviso-legal > p {
+    font-size: 3vw;
   }
 }
 
@@ -258,7 +264,7 @@
     margin-top: 10vh;
   }
 
-  p.mobile-aviso-legal {
+  div.mobile-aviso-legal {
     margin: 0;
     margin-top: 1vh;
   }
@@ -294,9 +300,11 @@
     font-size: 4.5vw;
   }
 
-  p.mobile-aviso-legal {
-    font-size: 3vw;
+  div.mobile-aviso-legal {
     margin-top: 0.5vh;
+  }
+  div.mobile-aviso-legal > p {
+    font-size: 3vw;
   }
 }
 
@@ -332,10 +340,11 @@
     margin-bottom: 4vh;
   }
 
-  p.mobile-aviso-legal {
+  div.mobile-aviso-legal > p {
     margin: 0;
     margin-top: 5vh;
-
+  }
+  div.mobile-aviso-legal > p {
     font-weight: normal;
     font-size: 3.4vw;
   }
@@ -384,9 +393,10 @@
     font-size: 5vw;
   }
 
-  p.mobile-aviso-legal {
+  div.mobile-aviso-legal {
     margin-top: 1vh;
-
+  }
+  div.mobile-aviso-legal > p {
     font-weight: normal;
     font-size: 3.4vw;
   }
