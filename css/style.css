@@ -108,6 +108,12 @@ a:link {
   width: 35%;
 }
 
+#playStoreButton{
+  padding-top: 8%;
+  padding-left: 25%;
+  width: 50%;
+}
+
 .hero-info img {
   width: 80%;
   padding-left: 12.5%;
